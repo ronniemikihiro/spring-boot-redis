@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+
+  redis:
+    image: redis:7.0.3-bullseye
+    container_name: redis
+    ports:
+      - "6379:6379"
+    deploy:
+      resources:
+        limits:
+          cpus: 0.75
+          memory: 1g
