@@ -9,10 +9,6 @@
 ![](https://img.shields.io/badge/Autor-Ronnie%20Mikihiro%20Sato%20Lopes-brightgreen)
 ![](https://img.shields.io/badge/Language-java-brightgreen)
 ![](https://img.shields.io/badge/Framework-springboot-brightgreen)
-
-![Java CI with Maven](https://github.com/wesleyosantos91/poc-multi-module-arch-hexagonal-springboot/workflows/Java%20CI%20with%20Maven/badge.svg?branch=main)
-![Sonar Build](https://github.com/wesleyosantos91/poc-multi-module-arch-hexagonal-springboot/workflows/Sonar%20Build/badge.svg?branch=main)
-![GitHub](https://img.shields.io/github/license/wesleyosantos91/poc-multi-module-arch-hexagonal-springboot)
 </div>
 
 ## Fundamentos teóricos
