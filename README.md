@@ -14,10 +14,9 @@
 ## Fundamentos teóricos
 
 > Cache é uma das abordagens para otimizar acesso à dados dos sistemas, onde evitamos requisições repetitivas nas fontes originais dos dados, que geralmente são grandes estruturas, complexas e nem sempre performáticas, assim com cache, passamos a consultar locais mais otimizados, que provêm acessos rápidos através de chaves.
-
 Há diversas tecnologias de cache para utilizarmos nas aplicações Java, como: EHCache, Redis, Infinispan, Caffeine, etc, porém quando começamos a se preocupar com escalabilidade das nossas aplicações, consequentemente em aumentar o número de instâncias simultâneas das nossas aplicações, precisamos pensar em provedores que nos forneçam a possibilidade de cache distribuído, de forma que as informações armazenadas em cache possam ser compartilhada entre as instâncias, assim aprimorando o uso dos cache entre as aplicações, além de evitar problemas de validade dos caches entre as aplicações concorrentes.
-
 Nessa POC utilizei o Redis, que é uma solução open source para armazenamento de estrutura de dados em memória, o qual pode ser utilizada como banco de dados, cache ou message broker.
+
 ##  Pré -requisitos
 
 - [ `Java 17+` ](https://www.oracle.com/java/technologies/downloads/#java17)
